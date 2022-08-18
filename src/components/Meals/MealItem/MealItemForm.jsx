@@ -7,7 +7,7 @@ export const MealItemForm = (props) => {
     <form action="" className={styles.form}>
       <Input
         label="Amount"
-        inpuy={{
+        input={{
           id: "amount",
           type: "number",
           min: "1",
